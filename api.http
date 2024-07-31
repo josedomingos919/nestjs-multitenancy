@@ -28,3 +28,33 @@ Content-Type: application/json
     "email":"restPartner@gmail.com",
     "password":"Domingos.1"
 }
+
+### Create Partner
+POST http://localhost:3000/partners
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwibmFtZSI6Ikpvc8OpIiwiZW1haWwiOiJyZXN0UGFydG5lckBnbWFpbC5jb20iLCJyb2xlcyI6WyJVU0VSIl0sImNyZWF0ZWRBdCI6IjIwMjQtMDctMzBUMjI6MDg6MDkuODg5WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDctMzBUMjI6MDg6MDkuODg5WiIsImlhdCI6MTcyMjM4MjI2OSwiZXhwIjoxNzIyMzkyMjY5fQ.G8tfxVgJ5asw4c4Bapo7HtuISdiUdmZjvD1kT7-oqIg
+
+{
+    "name" : "José Partner 1"
+}
+
+### All Partner
+GET http://localhost:3000/partners
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwibmFtZSI6Ikpvc8OpIiwiZW1haWwiOiJyZXN0UGFydG5lckBnbWFpbC5jb20iLCJyb2xlcyI6WyJVU0VSIl0sImNyZWF0ZWRBdCI6IjIwMjQtMDctMzBUMjI6MDg6MDkuODg5WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDctMzBUMjI6MDg6MDkuODg5WiIsImlhdCI6MTcyMjM4MjI2OSwiZXhwIjoxNzIyMzkyMjY5fQ.G8tfxVgJ5asw4c4Bapo7HtuISdiUdmZjvD1kT7-oqIg
+
+
+
+### Create event
+POST http://localhost:3000/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwibmFtZSI6Ikpvc8OpIiwiZW1haWwiOiJyZXN0UGFydG5lckBnbWFpbC5jb20iLCJyb2xlcyI6WyJVU0VSIl0sImNyZWF0ZWRBdCI6IjIwMjQtMDctMzBUMjI6MDg6MDkuODg5WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDctMzBUMjI6MDg6MDkuODg5WiIsImlhdCI6MTcyMjM4MjI2OSwiZXhwIjoxNzIyMzkyMjY5fQ.G8tfxVgJ5asw4c4Bapo7HtuISdiUdmZjvD1kT7-oqIg
+
+{
+    "name" : "Show Unitel",
+    "description": "Evento 1",
+    "date": "2024-07-31T00:47:02.664Z"
+}
+
+### Find all
+GET http://localhost:3000/events
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwibmFtZSI6Ikpvc8OpIiwiZW1haWwiOiJyZXN0UGFydG5lckBnbWFpbC5jb20iLCJyb2xlcyI6WyJVU0VSIl0sImNyZWF0ZWRBdCI6IjIwMjQtMDctMzBUMjI6MDg6MDkuODg5WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDctMzBUMjI6MDg6MDkuODg5WiIsImlhdCI6MTcyMjM4MjI2OSwiZXhwIjoxNzIyMzkyMjY5fQ.G8tfxVgJ5asw4c4Bapo7HtuISdiUdmZjvD1kT7-oqIg
